@@ -2,7 +2,7 @@ import { io, Socket } from "socket.io-client";
 import { Player } from "../types/Player";
 
 var socket: Socket;
-socket = io("ws://localhost:3000");
+socket = io(process.env.REACT_APP_SOCKET_URL ?? "ws://localhost:3000");
 type Callback = (...args: any[]) => void;
 export function getName() {
   return localStorage.getItem("name");
