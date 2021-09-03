@@ -18,9 +18,7 @@ const StyledInput = styled.input`
     border: 1px solid red;
     box-shadow: 0 0 10px red;
   }
-
-  ::placeholder {
-    font-family: "Acme";
-  }
+  font-size: 1rem;
+  font-family: "Acme";
 `;
 export default StyledInput;
