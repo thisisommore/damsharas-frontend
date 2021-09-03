@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <StyledHome>
       <div className="inner-container">
-        <h2>Damsharas</h2>
+        <h2>Dump charades</h2>
         <StyledInput
           value={name}
           onChange={($event) => setName($event.target.value)}
