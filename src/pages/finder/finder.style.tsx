@@ -4,6 +4,8 @@ const StyledFinder = styled.div`
   padding: 20px;
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
+
   .card {
     box-shadow: 0 0 27px rgba(0, 0, 0, 0.22);
     padding: 20px;
@@ -12,7 +14,10 @@ const StyledFinder = styled.div`
   .clues {
     display: inline-flex;
     flex-wrap: wrap;
-
+    margin-bottom: 10px;
+    @media only screen and (max-width: 570px) {
+      width: 100% !important;
+    }
     .clue {
       padding: 10px;
       display: inline;
@@ -32,7 +37,10 @@ const StyledFinder = styled.div`
     flex-direction: column;
     margin-left: 20px;
     min-width: 40%;
-
+    @media only screen and (max-width: 570px) {
+      width: 100% !important;
+      margin-left: 0px;
+    }
     .button-submit {
       margin-top: 10px;
       width: 100%;
