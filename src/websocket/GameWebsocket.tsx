@@ -12,8 +12,6 @@ export function setName(name: string) {
 }
 
 export function addHints(hints: string[]) {
-  console.log("hii");
-
   socket.emit("addHints", hints);
 }
 
