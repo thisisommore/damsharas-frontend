@@ -5,10 +5,11 @@
 - I then installed packages like axios and styled-components
 
 ## Project structure
-- [`src/api`](https://github.com/thisisommore/damsharas-frontend/tree/main/src/api) folder contains all api code
-- [`src/components`](https://github.com/thisisommore/damsharas-frontend/tree/main/src/components) folder contains all common components
-- [`src/pages`](https://github.com/thisisommore/damsharas-frontend/tree/main/src/pages) folder contains all components used with routing
-- [`src/types`](https://github.com/thisisommore/damsharas-frontend/tree/main/src/types) folder contains common types used throughout app
+
+- [`src/api`](https://github.com/thisisommore/dump-charades-frontend/tree/main/src/api) folder contains all api code
+- [`src/components`](https://github.com/thisisommore/dump-charades-frontend/tree/main/src/components) folder contains all common components
+- [`src/pages`](https://github.com/thisisommore/dump-charades-frontend/tree/main/src/pages) folder contains all components used with routing
+- [`src/types`](https://github.com/thisisommore/dump-charades-frontend/tree/main/src/types) folder contains common types used throughout app
 
 # Getting Started with Create React App
 
