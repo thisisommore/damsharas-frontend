@@ -13,6 +13,7 @@ const StyledHelper = styled.div`
       width: 100%;
     }
     .clue {
+      margin-right: 4px;
       padding: 10px;
       transition: 0.4s;
       cursor: pointer;
