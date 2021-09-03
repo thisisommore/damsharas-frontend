@@ -9,8 +9,15 @@ const StyledButton = styled.button`
   font-family: "Acme";
   transition: 0.4s;
 
-  :hover {
+  :hover,
+  :focus {
     box-shadow: 0 0 10px var(--color);
+  }
+
+  :focus,
+  :hover,
+  :active {
+    outline: none;
   }
 `;
 export default StyledButton;
