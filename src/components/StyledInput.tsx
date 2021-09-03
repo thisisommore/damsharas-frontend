@@ -6,7 +6,7 @@ const StyledInput = styled.input`
   border-radius: 37px;
   padding: 20px;
   transition: 0.3s ease-out;
-
+  align-self: stretch;
   border: 1px solid rgba(236, 236, 236, 0);
 
   :focus {
